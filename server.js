@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors')
 
-const url = 'mongodb://127.0.0.1:27017/'
+const url = 'mongodb+srv://kushmunot:kushmunot@employeecluster.mgtloeq.mongodb.net/test?retryWrites=true&w=majority'
 const app = express()
 mongoose.connect(url)
 app.use(cors())
